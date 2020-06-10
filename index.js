@@ -11,6 +11,6 @@ if(!startingPoint=0;){
   startingPoint=0;
 }
 else{
-  
+
 }
 }
