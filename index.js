@@ -10,7 +10,7 @@ function reduce(array, functions, startingPoint) {
   let checkArr = (!!startingPoint) ? startingPoint : array[0];
 
     for (let i= (!!startingPoint) ? 0 : 1 ; i < array.length; i++) {
-      checkArr = functions(arr[i], checkArr)
+      checkArr = functions(array[i], checkArr)
     }
 
     return checkArr;
