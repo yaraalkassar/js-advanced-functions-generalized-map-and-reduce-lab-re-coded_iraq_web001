@@ -7,9 +7,9 @@ function map(array, functions) {
    return newArr
 }
 function reduce(array, functions, startingPoint) {
-  let checkArr = (!!startingPoint) ? startingPoint : arr[0];
+  let checkArr = (!!startingPoint) ? startingPoint : array[0];
 
-    for (let i= (!!startingPoint) ? 0 : 1 ; i < arr.length; i++) {
+    for (let i= (!!startingPoint) ? 0 : 1 ; i < array.length; i++) {
       checkArr = functions(arr[i], checkArr)
     }
 
