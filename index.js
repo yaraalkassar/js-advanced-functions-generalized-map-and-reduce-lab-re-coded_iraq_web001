@@ -7,5 +7,10 @@ function map(array, functions) {
    return newArr
 }
 function reduce(array, functions, startingPoint) {
-
+if(!startingPoint=0;){
+  startingPoint=0;
+}
+else{
+  
+}
 }
