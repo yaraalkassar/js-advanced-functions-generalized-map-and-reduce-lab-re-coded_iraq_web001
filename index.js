@@ -8,10 +8,10 @@ function map(array, functions) {
 }
 function reduce(array, functions, startingPoint) {
   let checkArr = (!!startingValue) ? startingValue : arr[0];
-  
+
     for (let i= (!!startingValue) ? 0 : 1 ; i < arr.length; i++) {
       checkArr = callback(arr[i], checkArr)
     }
-  
+
     return memo;
 }
